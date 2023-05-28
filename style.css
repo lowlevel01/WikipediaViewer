@@ -1,0 +1,48 @@
+body{
+	background-image: url(http://www.tokkoro.com/picsup/3082791-art_color_dark_dawn_dusk_eerie_foggy_gold_hazy_leaves_misty_moon_murky_silhouette_tree_tree-branches_twilight_weather.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1,p{
+	color:white;
+}
+.toggleButton{
+	border-radius: 4px;
+	background-color: unset;
+	color:white;
+	/*height: 40px;*/
+	/*width: 100px;*/
+	font-family: Halvetica,sans-serif;
+	border-color: white;
+	border-width: 4px;
+	cursor: pointer;
+
+}
+.toggleButton:hover{
+	border-radius: 3px;
+	background-color: unset;
+	color:white;
+	border :;
+	font-family: arial,sans-serif;
+	font-size:16px;
+	font-weight: bold;
+}
+.toggleButton:active{
+	/*height : 30px;*/
+	/*width: 85px;*/
+	background-color: unset;
+	border-width: 5px;
+	font-size:13px;
+
+}
+.top-title{
+	font-family: monospace;
+	font-size:4em;
+}
+p{
+	font-family: arial,sans-serif;
+}
+.down{
+	color:grey;
+	font-size: 12px;
+}

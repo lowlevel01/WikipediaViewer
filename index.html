@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="weatherProject">
+<head >
+	<title>Weather Project #FCC</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div ng-controller="allPage">
+		<div class="forDesign">
+			<center>
+				<h1 class="top-title">LOCAL WEATHER PROJECT</h1>
+				<strong>
+					<p>
+						YOUR LATITUDE : 	{{latitude}} 
+						<br><br>
+						YOUR LONGITUDE : 	{{longitude}}
+						<br><br>
+						YOU ARE FROM : {{place}} ({{country}})
+						<br><br>
+					</p>
+					
+					<img src="{{imgLink}}" title="{{currentWeather}}">
+					<p>THE WEATHER : 	{{currentWeather}} ({{currentWeatherDesc}})</p>
+					<p>CLOUDS : {{clouds}}</p>
+					<p>WIND SPEED : {{windSpeed}}</p>
+					<p>WIND DEGREE : {{WindDeg}}</p>
+					<p>PRESSURE : {{pressure}}</p>
+					<p>HUMIDITY : {{humidity}}</p>
+					<p>SEA LEVEL : {{sea_level}}</p>
+					<p></p>
+					<span>	
+						<p ng-model="temp">TEMPERATURE : 	{{currentTemp}} {{unitTemp}}&deg;</p>
+						<input type="submit" value="from {{unitTemp}} to {{antiUnitTemp}}" ng-click="toggleTemp();" class="toggleButton">
+					</span>
+				</strong>
+				<br>
+				<em class="down">made with Nietzsche and coffee by Zakariaa Hamid 2018 &copy;</em>
+			</center>
+		</div>
+	</div>
+</body>
+</html>
