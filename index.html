@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="wikiProject">
+<head>
+	<title>Wikipedia Project #FCC</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div ng-controller="wikiPage">
+		<div class="forDesign">
+			<center>
+				<h1 class="top-title">WIKIPEDIA PROJECT</h1>
+				<input type="text" placeholder="enter something to search" class="searchQuery" ng-model="searchQuery" id="searchQuery">
+				<input type="submit" value="search" class="submitButton" ng-click="findQuery();">
+				<br>
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="randomArticle" title="click to get a random article">RANDOM ARTICLE</a>
+				<br>
+				<ul ng-repeat="id in myQueries">
+					<div class="wikiArticle">
+						<span class="forLine">
+							<p><h2>{{id.title}}</h2></p>
+							<p><h3>{{id.extract}}</h3></p>
+							<p><a href="https://en.wikipedia.org/wiki/?curid={{id.pageid}}" class="randomArticle" target="_blank">GO TO THE ARTICLE</a></p>
+							<br>
+						</span>
+					</div>
+				</ul>
+				<em class=".down">made with Nietzsche & coffee by Zakariaa Hamid 2018 &copy;</em>
+			</center>
+		</div>
+	</div>
+
+</body>
+</html>

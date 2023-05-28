@@ -1,0 +1,55 @@
+body{
+	background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Red-planet-snow-fantasy-stars-night-stones-4k-moon-mountains-HD-pictures-PIC-WPE0012036.jpg);
+	background-position: 80% 0px;
+	background-attachment: fixed;
+}
+.top-title{
+	font-family: monospace;
+	color:white;
+	font-size: 40px;
+}
+.submitButton{
+	background-color: unset;
+	height: 30px;
+	width: 70px;
+	border-width: 3px;
+	color:white;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-family: rome,sans-serif;
+}
+.randomArticle{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+}
+.randomArticle:active{
+	padding-top:3px;
+	font-size:15px;
+}
+.randomArticle:hover{
+	color:grey;
+}
+.submitButton{
+
+}
+.wikiArticle{
+	color:white;
+	background-image: url(https://www.atomit.fr/wp-content/uploads/2017/11/wallpaper.wiki-Universe-1080p-Space-Wallpaper-PIC-WPD004191.jpg);
+	font-family: arial,sans-serif;
+	border-radius: 5%;
+	background-repeat: no-repeat;
+	background-position: 10% 20%;
+}
+.forLine{
+	line-height: 20px;
+}
+h2{
+	font-family:all,sans-serif !important;
+	font-weight: bold;
+}
+.down{
+	font-family: monospace;
+	color:grey !important;
+}
